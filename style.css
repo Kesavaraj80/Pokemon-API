@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa&display=swap');
+body{
+    background: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1),no-repeat;
+}
+.all-container{
+    display: flex;
+    /* border: 1px black solid; */
+    margin-bottom: 5rem;
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+}
+.img-name-container{
+    margin: 10px;
+    /* border: 1px red solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: lightgrey; */
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+}
+.a-m-container{
+    display: flex;
+    /* border: greenyellow 1px solid; */
+    height: 100vh;
+}
+.move-container{
+    margin: 10px;
+    overflow: auto;
+    /* background-color: lightskyblue; */
+    background: transparent;
+    height: 97vh;
+    width: 45vw;
+    border-radius: 10px;
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+}
+.move-container::-webkit-scrollbar { 
+    display: none;
+}
+.move-container li{
+    list-style: none;
+    float:left;
+    margin: 10px;
+    text-transform: uppercase;
+    /* border: 1px lightblue solid;  */
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px -7px rgba(0,0,0,0.75);
+}
+.move-container h1{
+    position: relative;
+    left: 40%;
+}
+.move-container li:hover{
+    color:white;
+    transition: 1s;
+}
+
+.ability-container{
+    margin: 10px;
+    height: 97vh;
+    width: 30vw;
+    border-radius: 10px;
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+    overflow: auto;
+}
+.ability-container li{
+    list-style: none;
+    float:left;
+    margin: 10px;
+    text-transform: uppercase;
+    /* border: 1px lightblue solid; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px -7px rgba(0,0,0,0.75);
+}
+.ability-container::-webkit-scrollbar { 
+    display: none;
+}
+.ability-container h1{
+    position: relative;
+    left: 38%;
+}
+.ability-container li:hover{
+    color:white;
+    transition: 1s;
+}
+.image-con{
+    /* border: brown 1px solid; */
+    border-radius: 20px;
+}
+.img{
+    height: 300px;
+    width: 300px;
+}
+.detailcont{
+    /* border: teal 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.heading{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color:black;
+    font-family: 'Aref Ruqaa', serif;
+}
+.weight{
+    font-size: 2rem;
+    margin-top: -10px;
+    color:white;
+}
