@@ -127,6 +127,7 @@ body{
     }
     .a-m-container{
         display: flex;
+        flex-direction:  column;
         /* border: greenyellow 1px solid; */
         height: 100vh;
         width: 100vw;
@@ -143,8 +144,8 @@ body{
     }
     .ability-container{
         margin: 10px;
-        height: 97vh;
-        width: 50vw;
+        height: 10rem;
+        width: 97vw;
         border-radius: 10px;
         box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
         overflow: auto;
