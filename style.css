@@ -113,7 +113,7 @@ body{
     margin-top: -10px;
     color:white;
 }
-@media only screen and (min-width: 375px){
+@media only screen and (max-width: 375px){
     body{
         background:skyblue;
     }
@@ -133,6 +133,10 @@ body{
         height: 100vh;
         width: 100vw;
     }
+    .a-m-container h1{
+        font-size: 1.5rem;
+
+    }
     .move-container{
         margin: 5px;
         overflow: auto;
@@ -142,14 +146,9 @@ body{
         width: 94vw;
         border-radius: 10px;
         box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
-    }
-    .ability-container{
-        margin: 10px;
-        height: 10rem;
-        width: 94vw;
-        border-radius: 10px;
-        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
-        overflow: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .move-container li{
         list-style: none;
@@ -163,9 +162,34 @@ body{
     }
     .move-container h1{
         position: relative;
-        left: 40%;
+        left: 0;
+    }
+    .ability-container{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        height: 10rem;
+        width: 94vw;
+        border-radius: 10px;
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+        overflow: auto;
+    }
+    .ability-container li{
+        list-style: none;
+        float:left;
+        margin: 10px;
+        text-transform: uppercase;
+        /* border: 1px lightblue solid; */
         font-size: 1rem;
     }
+    .ability-container h1{
+        position: relative;
+        left: 0;
+    }
+    
 
     .image-con{
         /* border: brown 1px solid; */
