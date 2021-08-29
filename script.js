@@ -5,7 +5,7 @@ let moveArray =[];
 
 async function getdata(){
     try{
-        const data = await fetch("https://pokeapi.co/api/v2/pokemon?limit=50");
+        const data = await fetch("https://pokeapi.co/api/v2/pokemon?limit=100");
         const initial_details = await data.json();
         initial_details.results.forEach(function(pokemon){
         fetchPokemonData(pokemon);
