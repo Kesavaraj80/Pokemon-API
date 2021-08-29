@@ -57,6 +57,7 @@ async function fetchPokemonData(pokemon){
     a_m_cont.append(abi_cont);
     const abi_list = document.createElement("ul")
     const abi_head = document.createElement("h1");
+    abi_head.setAttribute("class","head_common");
     abi_head.innerText="Abilities";
     abi_cont.append(abi_head);
     // **********************************************************Updating Ability List
@@ -75,6 +76,7 @@ async function fetchPokemonData(pokemon){
     a_m_cont.append(mov_cont);
     const mov_list = document.createElement("ul");
     const mov_head = document.createElement("h1");
+    mov_head.setAttribute("class","head_common");
     mov_head.innerText="Moves";
     mov_cont.append(mov_head);
     // ***************************************************************Updating Moves List

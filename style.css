@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 body{
     background: skyblue;
 }
@@ -48,6 +50,7 @@ body{
     /* border: 1px lightblue solid;  */
     border-radius: 10px;
     box-shadow: 0px 0px 15px -7px rgba(0,0,0,0.75);
+    font-family: 'Comfortaa', cursive;
 }
 .move-container h1{
     position: relative;
@@ -72,8 +75,8 @@ body{
     margin: 10px;
     text-transform: uppercase;
     /* border: 1px lightblue solid; */
-    border-radius: 10px;
     box-shadow: 0px 0px 15px -7px rgba(0,0,0,0.75);
+    font-family: 'Comfortaa', cursive;
 }
 .ability-container::-webkit-scrollbar { 
     display: none;
@@ -85,6 +88,10 @@ body{
 .ability-container li:hover{
     color:white;
     transition: 1s;
+}
+.head_common{
+    font-size: 2rem;
+    font-family: 'Cormorant SC', serif;
 }
 .image-con{
     /* border: brown 1px solid; */
@@ -120,7 +127,7 @@ body{
     .all-container{
         display: flex;
         flex-direction: column;
-        margin-bottom: 5rem;
+        margin-bottom: 2rem;
         box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
         border-radius: 10px;
         width: 99vw;
@@ -156,9 +163,9 @@ body{
         margin: 10px;
         text-transform: uppercase;
         /* border: 1px lightblue solid;  */
-        border-radius: 10px;
-        box-shadow: 0px 0px 15px -7px rgba(0,0,0,0.75);
-        font-size: 10px;
+        box-shadow: none;
+        font-size: 15px;
+        font-family: 'Comfortaa', cursive;
     }
     .move-container h1{
         position: relative;
@@ -183,14 +190,19 @@ body{
         margin: 10px;
         text-transform: uppercase;
         /* border: 1px lightblue solid; */
-        font-size: 1rem;
+        font-size: 15px;
+        box-shadow:none;
+        font-family: 'Comfortaa', cursive;
     }
     .ability-container h1{
         position: relative;
         left: 0;
     }
+    .head_common{
+        font-size: 1.5rem;
+        font-family: 'Cormorant SC', serif;
+    }
     
-
     .image-con{
         /* border: brown 1px solid; */
         border-radius: 20px;
