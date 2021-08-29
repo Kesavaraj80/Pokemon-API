@@ -82,9 +82,9 @@ async function fetchPokemonData(pokemon){
     // ***************************************************************Updating Moves List
     // -----------Unique-Moves------//
     let uniqueMov = moveArray.splice(0,moveArray.length);
-    const countMoves = document.createElement("h1");
-    countMoves.innerText=uniqueMov.length;
-    mov_cont.append(countMoves)
+    // const countMoves = document.createElement("h1");
+    // countMoves.innerText=uniqueMov.length;
+    // mov_cont.append(countMoves)
     for(let i=0;i<uniqueMov.length;i++){
         const mov_item = document.createElement("li");
         mov_item.innerText=uniqueMov[i];
