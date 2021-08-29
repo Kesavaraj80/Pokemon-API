@@ -49,7 +49,7 @@ body{
     text-transform: uppercase;
     /* border: 1px lightblue solid;  */
     border-radius: 10px;
-    box-shadow: 0px 0px 15px -7px rgba(0,0,0,0.75);
+    /* box-shadow: 0px 0px 15px -7px rgba(0,0,0,0.75); */
     font-family: 'Comfortaa', cursive;
 }
 .move-container h1{
@@ -75,7 +75,7 @@ body{
     margin: 10px;
     text-transform: uppercase;
     /* border: 1px lightblue solid; */
-    box-shadow: 0px 0px 15px -7px rgba(0,0,0,0.75);
+    /* box-shadow: 0px 0px 15px -7px rgba(0,0,0,0.75); */
     font-family: 'Comfortaa', cursive;
 }
 .ability-container::-webkit-scrollbar { 
