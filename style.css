@@ -124,6 +124,7 @@ body{
         box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
         border-radius: 10px;
         width: 99vw;
+        height: 98vh;
     }
     .a-m-container{
         display: flex;
@@ -137,8 +138,8 @@ body{
         overflow: auto;
         /* background-color: lightskyblue; */
         background: transparent;
-        height: 97vh;
-        width: 50vw;
+        height: 45vh;
+        width: 94vw;
         border-radius: 10px;
         box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
     }
